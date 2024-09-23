@@ -41,15 +41,15 @@ if "text" in c1 or "friends" in c1:
             print("You order just black coffee (WHY. ITS SO BITTER) and the waiter comes back with your cup.")
             print("You sip it trying to keep your face stoic from the intense bitterness from the coffee.")
 
-            # Cafe ending 
-            print("")
-            print("You and your friend talk for a bit laughing and making plans for later in the summer.")
-            print("After about two hours your friend had to go so you paid and left as well.")
-            print("As you leave, your phone buzzes and you pull it out to check it.")
-            print("")
-            print("It's your friend telling you their waiting for you at the cafe.")
-            print("________________________________________________________________________________")
-            print("CAFE ENDING")
+        # Cafe ending 
+        print("")
+        print("You and your friend talk for a bit laughing and making plans for later in the summer.")
+        print("After about two hours your friend had to go so you paid and left as well.")
+        print("As you leave, your phone buzzes and you pull it out to check it.")
+        print("")
+        print("It's your friend telling you their waiting for you at the cafe.")
+        print("________________________________________________________________________________")
+        print("CAFE ENDING")
 
    
     elif "park" in c2: 
