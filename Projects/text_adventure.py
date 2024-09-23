@@ -28,7 +28,28 @@ if "text" in c1 or "friends" in c1:
         print("As you sit down next to them and a waiter comes up to take your orders.")
         
         # choice 5
+        c5 = input("Do you want a [latte], a [lemonade] or just [black coffee]?")
+        if"latte" in c5:
+            print("")
+            print("The waiter comes back with a latte and you sip it being careful not to burn your tongue.")
         
+        elif"lemonade" in c5:
+            print("")
+            print("The waiter comes back with the lemomade and you sip it slowly suprised about how sour it is.")
+        
+        else:
+            print("You order just black coffee (WHY. ITS SO BITTER) and the waiter comes back with your cup.")
+            print("You sip it trying to keep your face stoic from the intense bitterness from the coffee.")
+
+            # Cafe ending 
+            print("")
+            print("You and your friend talk for a bit laughing and making plans for later in the summer.")
+            print("After about two hours your friend had to go so you paid and left as well.")
+            print("As you leave, your phone buzzes and you pull it out to check it.")
+            print("")
+            print("It's your friend telling you their waiting for you at the cafe.")
+            print("________________________________________________________________________________")
+            print("CAFE ENDING")
 
    
     elif "park" in c2: 
@@ -36,7 +57,7 @@ if "text" in c1 or "friends" in c1:
         print("You could use the fresh air so you pick the park.")
         print("Your friend sends a thumbs up confirming your plans.")
 
-        # choice 2.2
+        # choice 6
         print("")
         print("You get up and get ready to go to the park, heading out the door.")
         print("You soon see your friend sitting on a bench and you call their name.")
@@ -70,15 +91,58 @@ else:
 
     # choice 4 
     print("")
-    print("There's a bit of a breeze as you make your way on the shore.")
+    print("There's a bit of a breeze as you step on to the beach.")
     c4 = input("Would you rather [wade] in the water or [sit] on the shore?")
     if "wade" in c4 or "water" in c4:
         print("")
         print("You stepped into the cool water letting it submerge you half way up your shins.")
-        print("You walk around in the water for a bit finding shells and small sea life.")
+        print("You walk around in the water, finding shells and small sea life.")
         print("")
-        print("You wade for about an hour before stepping out of the water and drying off.")
+        print("You wade for about an hour and a half before stepping out of the water and drying off.") 
+      
+        # beach ending 1 
+        print("")
+        print("After you finished drying of, you decided to head home for the day.")
+        print("As you head back, you were happy this was how you spent your day.")
+        print("____________________________________________________________________")
+        print("")
+        print("BEACH ENDING 1")
+
+        
+
+
     else: 
         print("")
         print("Not wanting to get wet, you sit down on the warm sand.")
         print("You look out on the water")
+        print("The ocean shimmers in the sun, and the warm sand makes you tired....")
+        print("")
+        print("You drift asleep on the beach.")
+
+        # Beach ending 1.5
+        print("")
+        print("You wake up still on the beach but the sun is almost set.")
+        print("You look around orienting yourself, and you suddenly see a humanoid figure in front of you.")
+        print("You ask whose there, are surprisingly met with your own voice.")
+        print("") 
+        print("You shake your head thinking it's still a dream.")
+        c7 = input("Do you want to [investigate] or [go home]?")
+        if"investigate" in c7:
+            print("")
+            print("You get up and walk towards the humanoid looking thing.")
+            print("Turns out, it was just a pile of rocks.")
+            print("....")
+            print("But then where did the voice come from?")
+            print("____________________________________________")
+            print("")
+            print("BEACH ENDING 1.5")
+
+        else:
+            print("")
+            print("You decide your probably just tired from waking up, and leave it at that.")
+            print("On your way home you ignore your own voice calling your name.")
+            print("___________________________________________________________")
+            print("BEACH ENDING 2")
+            
+         
+
