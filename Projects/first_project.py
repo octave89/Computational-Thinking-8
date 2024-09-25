@@ -5,7 +5,7 @@ from codesters import StageClass
 stage = StageClass()
 ###############################################
 
-
+# shapes
 s1 = codesters.Circle(100, 100, 200, 'blue')
 s1 = codesters.Circle(-150, -150)
 s2 = codesters.Circle(100, -100, 200, 'green')
@@ -16,7 +16,7 @@ s4 = codesters.Circle(-100, -100, 200, 'red')
 s4 = codesters.Circle(150, -150)
 
 
-
+# sprites
 stage.set_background("space")
 sprite1 = codesters.Sprite("pro controller", -150, 150)
 sprite1.set_size(0.6)
