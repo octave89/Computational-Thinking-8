@@ -35,13 +35,13 @@ if "text" in c1 or "friends" in c1:
         
         elif"lemonade" in c5:
             print("")
-            print("The waiter comes back with the lemomade and you sip it slowly suprised about how sour it is.")
+            print("The waiter comes back with the lemonade and you sip it slowly suprised about how sour it is.")
         
         else:
             print("You order just black coffee (WHY. ITS SO BITTER) and the waiter comes back with your cup.")
             print("You sip it trying to keep your face stoic from the intense bitterness from the coffee.")
 
-        # Cafe ending 
+     # Cafe ending 
         print("")
         print("You and your friend talk for a bit laughing and making plans for later in the summer.")
         print("After about two hours your friend had to go so you paid and left as well.")
@@ -56,21 +56,73 @@ if "text" in c1 or "friends" in c1:
         print("")
         print("You could use the fresh air so you pick the park.")
         print("Your friend sends a thumbs up confirming your plans.")
-
-        # choice 6
+        print("")
         print("")
         print("You get up and get ready to go to the park, heading out the door.")
         print("You soon see your friend sitting on a bench and you call their name.")
         print("")
         print("They notice you and smile, standing up and walking over to you.")
-
+       
+       # Park ending 1
+        c6 = input("Do you want to [walk] or just [sit on the bench]?")
+        if"walk" in c6:
+            print("")
+            print("You and your friend walk around the park enjoying the fresh air.")
+            print("You ignore the feeling of being watched.")
+            print("As you walk more and more, you get more and more uneasy.")
+            print("")
+            print("You walk for hours losing track of where your going and who you are.")
+            print("You lost your friend somewhere along the walk but you don't notice.")
+            print("You feel compelled to keep walking, thinking it will take you somewhere...")
+            print("....")
+            print("________________________________________________________________________")
+            print("PARK ENDING 1")
+        else: 
+            print("")
+            print("You decided to just sit on the bench with your friend.")
+            print("You and your friend talk for about an hour, and you are happy about meeting up with them.")
+            print("After a while you realize no time seemed has passed..")
+            print("")
+            print("Your friend doesn't notice anything and you two seem to keep talking forever...and ever...and ever..")
+            print("_______________________________________________________________________")
+            print("PARK ENDING 2")
+        
    
     else:
         print("")
         print("The mall sounds fun to you so you suggest it to your friend.")
         print("Your friend sends a thumbs up confirming your plans.")
-
-
+        
+        # choice 7
+        print("")
+        print("You get up and get ready to go to the mall, heading out the door.")
+        print("You walk to the strip mall not too far away from your house and you wait for your friend.")
+        print("As you wait, you realize there's almost no one around...")
+        c7 = input("Do you want to [look around], or [wait]?")
+        if"look around" in c7:
+            print("")
+            print("You decided to look around for a bit trying to figure out where everyone went.")
+            print("You walk into a store that looks run down and empty.")
+            print("")
+            print("You walk around looking at the dusty empty shelves in the dim lighting.")
+            print("After a bit you want to leave so you turn around remembering they way you came.")
+            print("")
+            print("Was is right...?")
+            print("Maybe is was left..?")
+            print("Wait no it was forwards..no..")
+            print("You turn around and find yourself unfamiliar with where you are..")
+            print("")
+            print("You begin to aimlessly walk around hoping for a way out.")
+            print("______________________________________________________")
+            print("MALL ENDING 1")
+        else:
+            print("")
+            print("You decided to wait for a little bit longer.")
+            print("You wait...")
+            print("and wait...")
+            print("and wait...")
+            print("You keep waiting for your friend hoping they'll show up..")
+            print("")
 
 else:
     print("")
