@@ -123,6 +123,8 @@ if "text" in c1 or "friends" in c1:
             print("and wait...")
             print("You keep waiting for your friend hoping they'll show up..")
             print("")
+            print("__________________________________________________________")
+            print("MALL ENDING 2")
 
 else:
     print("")
