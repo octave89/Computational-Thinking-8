@@ -106,6 +106,7 @@ elif answer == "D":
 	r_points += 1
 
 
+
 # Results
 print("")
 if g_points > s_points and g_points > r_points and g_points > h_points:
