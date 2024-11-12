@@ -46,9 +46,6 @@ b.event_collision(collision)
 
 # Controls
 
-def hide(sprite): 
-    sprite.hide()
-
 def move_up(sprite):
     if lives > 0:
         b.move_up(5)
